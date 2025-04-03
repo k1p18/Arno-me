@@ -1,7 +1,7 @@
-// Importing default colors from Tailwind CSS
-import colors from 'tailwindcss/colors';
+// // Importing default colors from Tailwind CSS
+// import colors from 'tailwindcss/colors';
 
-export const customColors = {
-  lightBlue: colors.lightBlue,
-  sky: colors.sky,  
-};
+// export const customColors = {
+//   lightBlue: colors.lightBlue,
+//   sky: colors.sky,  
+// };

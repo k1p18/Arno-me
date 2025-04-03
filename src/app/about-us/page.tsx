@@ -1,6 +1,3 @@
-
-
-
 import React from "react";
 import Aboutus from "./component/Aboutus";
 import Misson from "./component/Misson";
@@ -35,11 +32,10 @@ const Aboutpage = () => {
       {/* <Roboinq/> */}
       {/* <Robotwork /> */}
 
-      {/* <GRiddesc/> */}
-      <Usecasesol/>
+      {/* <GRiddesc /> */}
+      {/* <Usecasesol/> */}
       {/* <Textanimation/> */}
-    {/* <Ourteam/> */}
-
+      {/* <Ourteam/> */}
     </>
   );
 };
