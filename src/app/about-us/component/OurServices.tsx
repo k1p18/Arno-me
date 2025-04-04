@@ -7,10 +7,10 @@ const OurServices = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl xl:text-5xl">
-              Boost Your Productivity
+              Boost Your Productivity With Our Services
             </h2>
             <p className="mt-4 text-base leading-7 text-gray-600 sm:mt-8">
-              Enhance your workflow with advanced features
+              Enhance your workflow with our advanced features
             </p>
           </div>
           <div className="grid grid-cols-1 mt-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-x-12 gap-y-12 md:grid-cols-3 md:gap-0 xl:mt-24">
