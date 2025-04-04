@@ -35,7 +35,7 @@ const Workrecord = () => {
     <>
       <section>
         <div className="relative mx-auto py-8 px-4 w-full max-w-7xl bg-white">
-          {/* :BACKGROUND IMAGE */}
+         
           <div>
             <img
               src="https://fancytailwind.com/static/clothes1-cfbdfc4c90e7616b28ed14c338e6e17e.jpg"
@@ -45,12 +45,12 @@ const Workrecord = () => {
             <div className="absolute inset-0 w-full h-full bg-gray-300 bg-opacity-5 backdrop-filter backdrop-blur-sm" />
           </div>
 
-          {/* :TITLE */}
+          
           <h2 className="relative mb-5 text-center text-4xl text-gray-700 font-medium">
-            Discover Waka Brand
+            Work Record
           </h2>
 
-          {/* :PROMO COLLECTION CARDS */}
+          
           <div className="relative mx-auto max-w-sm md:max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-6">
             {promos.map((promo) => (
               <div
@@ -61,23 +61,23 @@ const Workrecord = () => {
                   href={promo.href}
                   className="py-5 pl-8 pr-4 w-full flex flex-col justify-end items-start"
                 >
-                  {/* ::Picture */}
+               
                   <img
                     src={promo.imageSrc}
                     alt={promo.imageAlt}
                     className="absolute inset-0 w-full h-full object-cover object-top transition duration-200 ease-in transform group-hover:scale-110"
                   />
-                  {/* ::Overlay */}
+               
                   <div className="absolute inset-0 bg-gradient-to-t from-black opacity-90" />
-                  {/* ::Collection Infos */}
+               
                   <div className="relative py-5 space-y-3 text-white text-opacity-90 group-hover:text-opacity-100">
-                    {/* :::category */}
+                   
                     <p className="text-sm font-medium">{promo.category}</p>
-                    {/* :::name */}
+                    
                     <h3 className="text-xl lg:text-2xl font-bold">
                       {promo.name}
                     </h3>
-                    {/* :::discover */}
+                    
                     <p className="text-sm font-semibold underline">Discover</p>
                   </div>
                 </a>
