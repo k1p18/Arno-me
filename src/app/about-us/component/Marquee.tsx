@@ -1,5 +1,5 @@
 import React from "react";
-import MarqueeItem from "./Textanimation";
+import MarqueeItem from "../../Nouserightnow/Textanimation";
 
 const Marquee: React.FC = () => {
   const upperMarquee = [
@@ -36,7 +36,7 @@ const Marquee: React.FC = () => {
     "Naruto",
   ];
 
-  console.log("upperMarquee: ", upperMarquee);  // Log to check the array
+  console.log("upperMarquee: ", upperMarquee); // Log to check the array
 
   return (
     <div className="container mx-auto">

@@ -1,5 +1,5 @@
 "use client";
-
+// not need right now 
 import React, { useEffect, useRef } from "react";
 
 const InfiniteText = () => {
@@ -78,7 +78,7 @@ const InfiniteText = () => {
         ref={textRef}
         className="flex flex-col text-2xl font-bold text-center"
       >
-        {/* Duplicate words for seamless looping */}
+       
         {[...words, ...words].map((word, index) => (
           <span
             key={index}
