@@ -1,3 +1,46 @@
+- Made a Blog folder
+    - Blogread
+    - Blogpost
+
+- Made a Botinfo folder
+    - Arnofeature
+    - Botcapability
+    - Capalibity
+    - Robotquality
+
+- Made a CaseStudy folder
+    - Cases
+    - caseread
+    
+- Made a Connect folder
+    - Certificate iMG
+    - Certificate partners
+    - Teams
+    - What we Offer
+    - Workspace(Not working beacause of Swiper issuue hopw you will solve this)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
