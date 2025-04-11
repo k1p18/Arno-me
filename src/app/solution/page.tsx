@@ -11,11 +11,16 @@ const Solutionpage = () => {
     <>
       {/* <Discription /> */}
 
-      {/* <Howitswork/> */}
-      {/* <Workinquary/> */}
-      {/* <Whotouse/> */}
+      <Howitswork/>
 
-      {/* <Workrecord/> */}
+      <Workinquary/>
+
+
+      <Whotouse/>
+
+
+    {/* work  */}
+      <Workrecord/>
       <Workrecord2/>
     </>
   );

@@ -3,7 +3,7 @@ import React from "react";
 const Roboinfo = () => {
   return (
     <>
-      <section className="h-screen w-screen flex flex-col   sm:flex-col md:flex-col lg:flex-row xl:flex-row bg-black text-white ">
+      <section className="h-screen flex flex-col   sm:flex-col md:flex-col lg:flex-row xl:flex-row bg-black text-white ">
         <div className="w-full sm:w-full md:w-full xl:w-1/2 flex flex-col justify-center items-center sm:p-6 md:p-10 px-3">
           <div className="w-full  xl:h-full lg:h-full md:h-auto sm:h-auto flex flex-col justify-center items-start   ">
             <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-6xl lg:text-4xl mb-2 font-medium xl:ml-15 ">

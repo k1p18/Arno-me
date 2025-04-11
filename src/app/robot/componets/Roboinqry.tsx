@@ -3,14 +3,15 @@ import React from "react";
 const Roboinqry = () => {
   return (
     <>
-      <section className="h-screen w-full bg-black text-white  xl:h-[30vh] lg:h-[30vh]  flex justify-center items-center  ">
+      <section className="h-screen w-full bg-black text-white  xl:h-[30vh] lg:h-[30vh]  flex justify-center items-center    ">
         <div className="flex flex-col justify-center items-center md:flex-col lg:flex-row xl:flex-row   ">
-          <div className="flex justify-center items-center mb-4 sm:w-full lg:w-[320px] max-w-full">
+          <div className="flex justify-center items-center mb-4 sm:w-full lg:w-[320px] max-w-full ">
             <img
               src="https://cliin.dk/i/crawler2.png"
               alt="xfds"
               className="sm:h-[220px] md:h-[220px] p-3 "
             />
+            
           </div>
           <div className="mb-4">
             <svg

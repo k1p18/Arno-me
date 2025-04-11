@@ -10,8 +10,8 @@ const Latestnews = () => {
         </div>
 
         <div className="max-w-[1320px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 md:gap-10 lg:grid-cols-4 gap-8 px-4 sm:px-8 lg:px-0 mt-10">
-          <Link href="/industries/steel" passHref>
-            <div className="text-start  ">
+          <Link href="/Industrynewsread">
+            <div className="text-start  cursor-pointer" role="link" aria-label="Read more about NAES x Gecko Partnership">
               <div className="overflow-hidden">
                 <img
                   className="hover:scale-115 duration-1000 w-full"
@@ -32,7 +32,7 @@ const Latestnews = () => {
             </div>
           </Link>
 
-          <Link href="/industries/steel" passHref>
+          <Link href="./Industrynewsread">
             <div className="text-start">
               <div className="overflow-hidden">
                 <img

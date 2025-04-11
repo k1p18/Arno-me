@@ -5,8 +5,8 @@ import Cases from "./readcase/Cases";
 const Casepage = () => {
   return (
     <>
-      {/* <Readcase /> */}
       <Cases/>
+      <Readcase />
     </>
   );
 };

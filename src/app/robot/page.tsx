@@ -9,11 +9,11 @@ import Ouroffers from './componets/Ouroffers'
 const Robots = () => {
   return (
     <>
-    {/* <Roboinfo/> */}
-    {/* <Roboinqry/> */}
-    {/* <Ourservice/> */}
+    <Roboinfo/>
+    <Ourservice/>
     <Ourapproch/>
-    {/* <Ouroffers/> */}
+    <Ouroffers/>
+    <Roboinqry/>
 
     
     </>

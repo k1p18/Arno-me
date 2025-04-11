@@ -109,12 +109,7 @@ const Blogpost = () => {
               Banking crises have developed many times throughout history when
               one or more risks have emerged for a banking sector as a whole.
             </p>
-            <Link
-              href="#!"
-              className="bg-blue-600 hover:bg-opacity-90 text-white font-bold border border-blue-600 py-3 px-7 rounded transition"
-            >
-              All Posts
-            </Link>
+           
           </div>
 
           <div className="grid grid-cols-12 gap-6">

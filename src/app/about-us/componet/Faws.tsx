@@ -38,52 +38,58 @@ const Faws = () => {
   ];
 
   return (
-    <div className="w-full bg-gray-50 min-h-screen py-10">
-      <div className="my-8 mx-auto max-w-4xl flex flex-col items-center">
-        <img
-          src="https://fancytailwind.com/static/faq1-8ef2a6c2addbed9f838eea20b9ad21b6.png"
-          alt="Frequently Asked Questions"
-          className="w-full h-auto mb-6"
-        />
-        <h2 className="text-center text-2xl sm:text-4xl text-sky-600 tracking-widest font-bold">
-          Frequently Asked Questions
-        </h2>
-      </div>
+    <>
+      <section>
+        <div className="w-full bg-gray-50 min-h-screen py-10">
+          <div className="my-8 mx-auto max-w-4xl flex flex-col items-center">
+            <img
+              src="https://fancytailwind.com/static/faq1-8ef2a6c2addbed9f838eea20b9ad21b6.png"
+              alt="Frequently Asked Questions"
+              className="w-full h-auto mb-6"
+            />
+            <h2 className="text-center text-2xl sm:text-4xl text-sky-600 tracking-widest font-bold">
+              Frequently Asked Questions
+            </h2>
+          </div>
 
-      <dl className="mx-auto mb-10 max-w-4xl px-4 space-y-4">
-        {faq.map((item) => (
-          <Disclosure key={item.id}>
-            {({ open }) => (
-              <>
-                <dt
-                  className={`group w-full border border-sky-600 rounded-md transition-all duration-200 ${
-                    open ? "bg-sky-600 text-white" : "bg-white text-gray-800"
-                  } hover:bg-sky-600 hover:text-white`}
-                >
-                  <Disclosure.Button className="w-full flex justify-between items-center py-4 px-5 text-left">
-                    <span className="text-lg md:text-xl font-semibold">
-                      {item.question}
-                    </span>
-                    <ChevronDownIcon
-                      className={`w-6 h-6 transform transition-transform duration-300 ${
+          <dl className="mx-auto mb-10 max-w-4xl px-4 space-y-4">
+            {faq.map((item) => (
+              <Disclosure key={item.id}>
+                {({ open }) => (
+                  <div>
+                    <dt
+                      className={`group w-full border border-sky-600 rounded-md transition-all duration-200 ${
                         open
-                          ? "rotate-180 text-white"
-                          : "text-sky-600 group-hover:text-white"
-                      }`}
-                    />
-                  </Disclosure.Button>
-                </dt>
-                <dd>
-                  <Disclosure.Panel className="bg-white text-gray-600 text-xl px-5 py-4 border border-t-0 border-sky-600 rounded-b-md">
-                    {item.answer}
-                  </Disclosure.Panel>
-                </dd>
-              </>
-            )}
-          </Disclosure>
-        ))}
-      </dl>
-    </div>
+                          ? "bg-sky-600 text-white"
+                          : "bg-white text-gray-800"
+                      } hover:bg-sky-600 hover:text-white`}
+                    >
+                      <Disclosure.Button className="w-full flex justify-between items-center py-4 px-5 text-left">
+                        <span className="text-lg md:text-xl font-semibold">
+                          {item.question}
+                        </span>
+                        <ChevronDownIcon
+                          className={`w-6 h-6 transform transition-transform duration-300 ${
+                            open
+                              ? "rotate-180 text-white"
+                              : "text-sky-600 group-hover:text-white"
+                          }`}
+                        />
+                      </Disclosure.Button>
+                    </dt>
+                    <dd>
+                      <Disclosure.Panel className="bg-white text-gray-600 text-xl px-5 py-4 border border-t-0 border-sky-600 rounded-b-md">
+                        {item.answer}
+                      </Disclosure.Panel>
+                    </dd>
+                  </div>
+                )}
+              </Disclosure>
+            ))}
+          </dl>
+        </div>
+      </section>
+    </>
   );
 };
 

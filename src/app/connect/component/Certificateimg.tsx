@@ -66,7 +66,7 @@ const cartiList = [
 const Certificateimg = () => {
   return (
     <>
-      <section className="ezy__portfolio5 light py-14 md:py-24 bg-white dark:bg-[#0b1727] text-black text-opacity-80 dark:text-white">
+      <section className=" py-14 md:py-24  bg-black  text-white text-opacity-80">
         <div className="container px-4 mx-auto">
           <div className="grid grid-cols-12 justify-center mb-6 md:mb-12">
             <div className="col-span-12 lg:col-span-6 lg:col-start-4 text-center">

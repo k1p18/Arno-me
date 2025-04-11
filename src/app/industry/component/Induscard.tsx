@@ -4,7 +4,7 @@ import Link from "next/link";
 const Induscard = () => {
   return (
     <>
-      <section className="flex flex-col mx-auto px-5 py-40 max-h-[100vh] text-white  bg-black ">
+      <section className="flex flex-col mx-auto px-5 py-45 h-[100vh] text-white  bg-black ">
         <div className=" mx-auto ">
           <h1 className="text-4xl mb-5 ">Industry</h1>
         </div>

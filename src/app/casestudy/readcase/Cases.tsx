@@ -4,8 +4,8 @@ import Link from "next/link";
 const Cases = () => {
   return (
     <>
-      <section>
-        <div className="mx-auto lg:py-20 xl:py-20">
+      <section className="h-screen">
+        <div className="mx-auto lg:py-35 xl:py-30">
           <div className="text-center py-10 mt-5">
             <h1 className="text-4xl font-bold text-black dark:text-white mb-4">
               Case Studies
@@ -20,7 +20,7 @@ const Cases = () => {
             <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               <div className="relative">
                 <Link
-                  href="#_" // Use Link component with href attribute
+                  href="./Readcase" 
                   className="block overflow-hidden group rounded-xl shadow-lg"
                 >
                   <img

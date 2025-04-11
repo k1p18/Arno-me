@@ -1,20 +1,20 @@
-import React from 'react'
-import Arnofeature from './component/Arnofeature'
-import Botcapability from './component/Botcapability'
-import Capability from './component/Capability'
-import Robotquality from './component/Robotquality'
+import React from "react";
+import Arnofeature from "./component/Arnofeature";
+import Botcapability from "./component/Botcapability";
+import Capability from "./component/Capability";
+import Robotquality from "./component/Robotquality";
 
 const Botinfo = () => {
   return (
     <>
-    {/* <Arnofeature/> */}
+      <Robotquality />
+      <Arnofeature />
 
-    {/* <Botcapability/> */}
+      <Botcapability />
 
-    {/* <Capability/> */}
-    <Robotquality/>
+      <Capability />
     </>
-  )
-}
+  );
+};
 
-export default Botinfo
+export default Botinfo;

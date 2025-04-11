@@ -4,7 +4,7 @@ import React from "react";
 const Smallcontact = () => {
   return (
     <>
-      <section className="h-[20vh]">
+      <section className="h-[20vh] mt-90 lg:mt-150">
         <div className="h-auto bg-gray-900">
           <div className="mx-auto  py-20 sm:px-6 sm:py-32 lg:px-8">
             <div className="relative isolate overflow-hidden  px-6 py-24  text-center shadow-2xl sm:rounded-3xl sm:px-16">

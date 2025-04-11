@@ -12,7 +12,7 @@ import Solutionpage from "./solution/page";
 export default function Home() {
   return (
     <>
-      {/* <Blogpage/> */}
+      <Blogpage/>
 
       {/* <Baners/> */}
 
@@ -22,7 +22,7 @@ export default function Home() {
       
       {/* <Connects/> */}
 
-      {/* <Arnohardware/> */}
+      {/* <Arnohardware/> */}    
 
       {/* <Industry/> */}
 
@@ -30,7 +30,7 @@ export default function Home() {
 
       {/* <Robots/> */}
 
-      <Aboutuspage/>
+      {/* <Aboutuspage/> */}
     </>
   );
 }

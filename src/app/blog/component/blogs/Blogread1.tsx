@@ -186,7 +186,7 @@ const Blogread1 = () => {
                 </p>
 
                 <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-5 lg:gap-y-0">
-                  {/* Badges/Tags */}
+                 
                   <div>
                     <a
                       className="m-0.5 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-hidden focus:bg-gray-200"
@@ -221,7 +221,7 @@ const Blogread1 = () => {
           <div className="lg:col-span-1 lg:w-full lg:h-full lg:bg-linear-to-r lg:from-gray-50 lg:via-transparent lg:to-transparent">
             <div className="sticky top-0 start-0 py-8 lg:ps-8">
               <div className="space-y-6">
-                <Link href="/blog/5-reasons-not-start-ux-career">
+                <Link href="/blog/5-reasons-not-start-ux-career "  legacyBehavior>
                   <a
                     className="group flex items-center gap-x-6 focus:outline-hidden"
                     href="#"
@@ -242,7 +242,7 @@ const Blogread1 = () => {
                   </a>
                 </Link>
 
-                <Link href="/blog/5-reasons-not-start-ux-career">
+                <Link href="/blog/5-reasons-not-start-ux-career"  legacyBehavior>
                   <a
                     className="group flex items-center gap-x-6 focus:outline-hidden"
                     href="#"
@@ -264,7 +264,7 @@ const Blogread1 = () => {
                   </a>
                 </Link>
 
-                <Link href="/blog/5-reasons-not-start-ux-career">
+                <Link href="/blog/5-reasons-not-start-ux-career"  legacyBehavior>
                   <a
                     className="group flex items-center gap-x-6 focus:outline-hidden"
                     href="#"

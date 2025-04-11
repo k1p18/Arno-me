@@ -6,7 +6,7 @@ const Whotouse = () => {
       <section className="min-h-screen bg-black text-white">
         <div className="py-25 mx-auto">
           <div className="mb-15 flex flex-col items-center">
-            <h4 className="text-2xl lg:text-4xl mb-3">Sign Of Uses</h4>
+            <h4 className="text-2xl lg:text-4xl mb-3">Who Can Use</h4>
 
             <h1 className="lg:text-4xl text-md p-1 text-center">
               You Know its time to step into the Next chapter When....

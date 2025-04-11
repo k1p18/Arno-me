@@ -7,23 +7,31 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "swiper/swiper-bundle.min.css";
 
 import Workspace from "./component/Workspace";
+import Workslider from "./component/Workslider";
+import SwipeCarousel from "./component/Workslider";
+// import Workslider from "./component/Workslider";
 
 const Connects = () => {
   return (
     <>
-      {/* <Certificateimg/> */}
-      {/* <Certificates/> */}
+      <Certificateimg/>
+      <Certificates/>
 
-      {/* <Teamconnect/> */}
+      <Teamconnect/>
 
-      {/* <Whatweoffer />x */}
+      <Whatweoffer /> 
 
-      {/* <Workspace/>
-      
-      
-      
-      
-      */}
+
+
+    <Workslider/>
+
+
+
+
+    {/* getting an error   */}
+      {/* <Workspace/> */}
+
+
     </>
   );
 };
